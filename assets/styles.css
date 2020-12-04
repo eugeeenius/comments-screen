@@ -1,0 +1,30 @@
+form {
+  position: absolute;
+  bottom: 20px;
+  width: 600px;
+}
+.textarea {
+  width: 600px;
+}
+.comments {
+  width: 600px;
+}
+
+.display {
+  width: 600px;
+  height: 350px;
+  padding: 20px;
+  border: 1px solid;
+  overflow-y: scroll;
+}
+
+.display-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.close {
+  cursor: pointer;
+}
